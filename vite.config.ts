@@ -15,6 +15,7 @@ export default defineConfig({
   build: {
     outDir: "build",
     target: "esnext",
+    cssCodeSplit: false, // ← forces ALL CSS into index.css
   },
 
   server: {
