@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
 
   // 🔥 ADD THIS LINE
-  base: "./",
+  base: "",
 
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
