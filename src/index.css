@@ -308,7 +308,7 @@
 
 
 /* THEME VARIABLES (global, on :root) */
-[data-theme="dark"] {
+.dark {
   --bg: #0f0f0f;
   --text: #fff;
   --text-muted: #4683f4;
@@ -320,7 +320,7 @@
 }
 
 /* LIGHT THEME */
-[data-theme="light"] {
+.root {
   --bg: #f8f9fa;
   --text: #000000;
   --text-muted: #000000;
