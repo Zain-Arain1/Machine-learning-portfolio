@@ -1,7 +1,3 @@
-/* HERO SECTION */
-import Hero from "./assets/Hero.jpg";
-import j from "./assets/j.jpg";
-
 
 .hero {
   display: flex;
@@ -319,7 +315,7 @@ import j from "./assets/j.jpg";
   --text-muted2: #0905ff;
   --accent: #12f7ff;
   --accent-hover: #ff3f73;
-  --hero-bg: url({Hero}); /* dark theme bg */
+  --hero-bg: url("./assets/Hero.jpg"); /* dark theme bg */
   --line : #ffffff;
 }
 
@@ -331,7 +327,7 @@ import j from "./assets/j.jpg";
   --text-muted2: #ff0000;
   --accent: #00cfff;
   --accent-hover: #ff3f73;
-  --hero-bg: url({j}); /* light theme bg */
+  --hero-bg: url("./assests/j.jpg"); /* light theme bg */
   --line : #000000;
 }
 
