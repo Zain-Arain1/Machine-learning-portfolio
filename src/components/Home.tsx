@@ -60,17 +60,16 @@ export function Home({ theme }: HeroProps) {
     visible: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 80 } },
   };
 
-  // Set CSS variable for background
-  useEffect(() => {
-    document.documentElement.style.setProperty(
-      "--hero-bg",
-      theme === "light" ? "url('./j.jpg')" : "url('./Hero.jpg')"
-    );
-  }, [theme]);
 
   return (
     <section id="home" className="hero">
-      <div className="hero-bg" />
+      <div
+        className="hero-bg"
+        style={{
+          backgroundImage: `url(${theme === "light" ? "/j.jpg" : "/Hero.jpg"})`,
+        }}
+      />
+
       <motion.div className="hero-content" variants={containerVariants} initial="hidden" animate="visible">
         <motion.h1 className="hero-name" variants={itemVariants}>
           Hi! I’m <br />
