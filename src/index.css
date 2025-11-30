@@ -315,19 +315,19 @@
   --text-muted2: #0905ff;
   --accent: #12f7ff;
   --accent-hover: #ff3f73;
-  --hero-bg: url("./Hero.jpg"); /* dark theme bg */
+  --hero-bg: url("/Hero.jpg"); /* dark theme bg */
   --line : #ffffff;
 }
 
 /* LIGHT THEME */
-:root {
+.root {
   --bg: #f8f9fa;
   --text: #000000;
   --text-muted: #000000;
   --text-muted2: #ff0000;
   --accent: #00cfff;
   --accent-hover: #ff3f73;
-  --hero-bg: url("./j.jpg"); /* light theme bg */
+  --hero-bg: url("/j.jpg"); /* light theme bg */
   --line : #000000;
 }
 
