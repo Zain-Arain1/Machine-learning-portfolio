@@ -27,7 +27,7 @@ It showcases my work, projects, skills, and journey as a developer passionate ab
 
 | Category            | Tools / Libraries                        |
 | ------------------- | ---------------------------------------- |
-| **Frontend**        | React.js, HTML5, CSS3, JavaScript (ES6+),tailwind CSS ,Figma |
+| **Frontend**        | React.js, HTML5, CSS3,Typescript,tailwind CSS ,Figma |
 | **Styling**         | Tailwind CSS / Custom CSS                |
 | **Animation**       | Framer Motion                            |
 | **Contact Form**    | EmailJS                                  |
