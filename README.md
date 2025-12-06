@@ -42,7 +42,7 @@ To run this project locally:
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/kunj2803/my-Website-2.git
+git clone https://github.com/kunj2803/kunj-portfolio2.git
 
 # 2️⃣ Navigate to project directory
 cd kunjdesai-portfolio
