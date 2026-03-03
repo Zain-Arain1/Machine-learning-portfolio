@@ -274,10 +274,21 @@
     margin-top: 30px;
   }
 }
-
-.root{
+:root {
   --cd: #000000;
+  --bg: #f8f9fa;
+  --text: #000000;
+  --text-muted: #000000;
+  --text-muted2: #ff0000;
+  --accent: #00cfff;
+  --accent-hover: #ff3f73;
+  --hero-bg: url("/j.jpeg"); /* light theme bg */
+  --line: #000000;
+  --c-text: #000000;
 }
+/* .root{
+  --cd: #000000;
+} */
 .dark{
   --cd: #ffffff;
 }
@@ -320,16 +331,16 @@
 }
 
 /* LIGHT THEME */
-.root {
+/* .root {
   --bg: #f8f9fa;
   --text: #000000;
   --text-muted: #000000;
   --text-muted2: #ff0000;
   --accent: #00cfff;
   --accent-hover: #ff3f73;
-  --hero-bg: url("/j.jpg"); /* light theme bg */
+  --hero-bg: url("/j.jpg"); 
   --line : #000000;
-}
+} */
 
 .about-wrapper {
   position: relative;
@@ -1115,7 +1126,7 @@
   gap: 8px;
   cursor: pointer;
   transition: 0.3s ease;
-  z-index: ;
+  z-index: index;
 }
 
 .back-btn:hover {
@@ -2192,9 +2203,9 @@ DARK THEME (example)
   color: var(--c-text);
 }
 
-.root:{
+/* .root{
   --c-text: #000000;
-}
+} */
 /* Skills Table */
 .skills-table {
   max-width: 1200px;

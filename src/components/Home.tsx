@@ -3,11 +3,12 @@ import { color, motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import "./Home.css";
 
+
+
 const githubLogo = "/github.png";
 const linkedinLogo = "/linkedin.png";
 const gmailLogo = "/gmail.png";
-const instagramLogo = "/insta.png";
-const facebookLogo = "/facebook.png";
+
 const leetcodeLogo = "/leetcode.png";
 const whatsappLogo = "/whatsapp.png";
 
@@ -25,16 +26,15 @@ export function Home({ theme }: HeroProps) {
   ];
 
   const connectLinks = [
-    { img: linkedinLogo, link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
-    { img: gmailLogo, link: "mailto:kunjd2803@gmail.com" },
-    { img: whatsappLogo, link: "https://wa.me/+918758209508" },
-    { img: instagramLogo, link: "https://www.instagram.com/kunj_2834/" },
-    { img: facebookLogo, link: "https://www.facebook.com/kunj.desai.222608" },
+    { img: linkedinLogo, link: "https://www.linkedin.com/in/muhammad-zaid-tahir-3a6160362" },
+    { img: gmailLogo, link: "mailto:mianzaid049@gmail.com" },
+    { img: whatsappLogo, link: "https://wa.me/+923324418821" },
+
   ];
 
   const workLinks = [
-    { img: githubLogo, link: "https://github.com/kunj2803" },
-    { img: leetcodeLogo, link: "https://leetcode.com/u/Kunj_2803" },
+    { img: githubLogo, link: "https://github.com/zaid-mian" },
+    { img: leetcodeLogo, link: "https://leetcode.com/u/MIANZAID/" },
   ];
 
   const [typedRoles, setTypedRoles] = useState("");
@@ -66,14 +66,14 @@ export function Home({ theme }: HeroProps) {
       <div
         className="hero-bg"
         style={{
-          backgroundImage: `url(${theme === "light" ? "/j.jpg" : "/Hero.jpg"})`,
+          backgroundImage: `url(${theme === "light" ? "/j.jpeg" : "/Hero.jpeg"})`,
         }}
       />
 
       <motion.div className="hero-content" variants={containerVariants} initial="hidden" animate="visible">
         <motion.h1 className="hero-name" variants={itemVariants}>
           Hi! I’m <br />
-          <span className="gradient-text hero-name-line">KUNJ DESAI</span>
+          <span className="gradient-text hero-name-line">Muhammad Zaid Tahir</span>
           <motion.div className="hero-line" variants={itemVariants} />
         </motion.h1>
 
@@ -97,9 +97,9 @@ export function Home({ theme }: HeroProps) {
 
         <motion.div className="hero-info" variants={itemVariants}>
           {[
-            { label: "📍 Location", value: "Surat, Gujarat, India" },
+            { label: "📍 Location", value: "Pakistan" },
             { label: "💼 Expertise", value: "AI/ML, Problem Solving" },
-            { label: "📞 Contact", value: "kunjd2803@gmail.com" },
+            { label: "📞 Contact", value: "mianzaid049@gmail.com" },
           ].map((info, i) => (
             <motion.div key={i} className="info-card" whileHover={{ scale: 1.05, y: -3 }} variants={itemVariants}>
               <h4>{info.label}</h4>

@@ -21,6 +21,10 @@ const SKILLS = [
   { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
   { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+ { 
+  name: "PostgreSQL", 
+  logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" 
+},
   { name: "OpenCV", logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" },
 ];
 
@@ -32,7 +36,7 @@ const ROWS: SkillRow[][] = [
         { name: "Python", level: 95 },
         { name: "C", level: 80 },
         { name: "C++", level: 85 },
-        { name: "Java", level: 70 },
+  
       ],
     },
     {
@@ -49,6 +53,7 @@ const ROWS: SkillRow[][] = [
       items: [
         { name: "MySQL", level: 80 },
         { name: "MongoDB", level: 75 },
+        { name: "PostgreSQL", level: 75 },
         { name: "Git", level: 85 },
       ],
     },
@@ -69,7 +74,7 @@ const ROWS: SkillRow[][] = [
         { name: "Machine Learning", level: 90 },
         { name: "Deep Learning", level: 88 },
         { name: "YOLO Object Detection", level: 80 },
-        { name: "Explainable AI (XAI)", level: 75 },
+  
       ],
     },
     {

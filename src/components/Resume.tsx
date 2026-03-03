@@ -51,7 +51,7 @@ export function Resume() {
         </motion.div>
 
         {/* PROFILE BOX */}
-        <motion.div
+        {/* <motion.div
           variants={fadeUp}
           initial="hidden"
           whileInView="visible"
@@ -91,7 +91,7 @@ export function Resume() {
             and end-to-end AI deployment. Skilled in Python, TensorFlow, PyTorch,
             and always driven to build impactful solutions.
           </motion.p>
-        </motion.div>
+        </motion.div> */}
 
         {/* EDUCATION */}
         <motion.div
@@ -125,23 +125,23 @@ export function Resume() {
           <div className="resume-list">
             {[
               {
-                degree: "B.Tech in Artificial Intelligence & Data Science",
-                school: "S.C.E.T — Sarvajanik University, Surat",
-                period: "2022 – 2026",
-                detail: "Current GPA: 9.0",
+                degree: "Bachelors of Computer Science",
+                school: "University of Agriculture Faisalabad",
+                period: "2023 – 2027",
+                detail: "Current GPA: 3.3",
               },
               {
-                degree: "Higher Secondary (12th)",
-                school: "RSM Poonawala School",
-                period: "2020 – 2022",
+                degree: "Artifical Intelligence",
+                school: "Career Institute",
+                period: "2025",
                 detail: "78%",
               },
-              {
-                degree: "Secondary (10th)",
-                school: "Ambika Niketan School",
-                period: "2019 – 2020",
-                detail: "85%",
-              },
+              // {
+              //   degree: "Secondary (10th)",
+              //   school: "Ambika Niketan School",
+              //   period: "2019 – 2020",
+              //   detail: "85%",
+              // },
             ].map((edu, i) => (
               <motion.div
                 key={i}
@@ -161,7 +161,7 @@ export function Resume() {
           </div>
         </motion.div>
 
-        {/* PROJECTS */}
+        {/* PROJECTS
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -201,7 +201,7 @@ export function Resume() {
           </ul>
         </motion.div>
 
-        {/* SKILLS */}
+        Skills
         <motion.div
           variants={fadeRight}
           initial="hidden"
@@ -240,7 +240,7 @@ export function Resume() {
               </motion.span>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
       </div>
     </section>

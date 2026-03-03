@@ -5,12 +5,12 @@ import "./projects.css";
 
 const PROJECTS = [
   {
-    title: "🩺 Mammogram Malignancy Detector",
-    desc: "Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.",
-    ss: "/mamo.png",
-    tech: ["TensorFlow", "Keras", "OpenCV", "YOLOv8"],
+    title: "🧠 AI Communication Coach",
+    desc: "Real-time multi-modal speech and body language analysis system using Whisper, MediaPipe, and Transformer-based sentiment scoring with WebSocket live feedback.",
+    ss: "/mamo.jpeg",
+    tech: ["Python", "Flask", "Flask-SocketIO", "OpenAI Whisper", "MediaPipe", "DistilBERT", "FFmpeg", "SQLite"],
     live: "#",
-    code: "https://github.com/kunjdesai/mammo-detector",
+    code: "https://github.com/zaid-mian/AI_Communication_Coach",
   },
   {
     title: "🧠 Mental Health Analyzer",
@@ -18,47 +18,47 @@ const PROJECTS = [
     ss: "/mentalhealth.jpg",
     tech: ["Python", "Transformers", "NLTK", "scikit-learn"],
     live: "https://mental-health-analyzer.streamlit.app/",
-    code: "https://github.com/kunj2803/Mental-Health-Analyzer",
+    code: "https://github.com/zaid-mian/Health-Ai",
   },
+{
+  title: "🏥 Elder Care AI Companion",
+  desc: "Autonomous fall detection and AI voice companion system with real-time pose estimation, multi-threaded backend processing, and automated emergency alerts.",
+  ss: "/elder-care.jpeg",
+  tech: ["Python", "OpenCV", "MediaPipe", "SpeechRecognition", "Twilio API", "SQLite"],
+  live: "#",
+  code: "https://github.com/zaid-mian/Monica-AI-",
+},
   {
-    title: "🤖 Indian Sign Language Interpreter",
-    desc: "Real-time gesture recognition using Mediapipe + TensorFlow for sign-to-text translation.",
-    ss: "/ISL.png",
-    tech: ["Mediapipe", "TensorFlow", "React", "Flask"],
-    live: "#",
-    code: "https://github.com/kunjdesai/ISL-Interpreter",
-  },
-  {
-    title: "💼 Portfolio Website",
-    desc: "Modern portfolio built with React + Framer Motion with smooth animations and clean UI.",
-    ss: "/portfolio.jpg",
-    tech: ["React", "Framer Motion", "Tailwind CSS"],
-    live: "https://kunj-desai.vercel.app/",
-    code: "https://github.com/kunj2803/Kunj-Portfolio",
-  },
+  title: "🇵🇰 MediBot AI",
+  desc: "Localized AI healthcare assistant integrating Gemini API for symptom analysis, hospital finder, medicine database, and emergency detection.",
+  ss: "/medibot.jpeg",
+  tech: ["Python", "Flask", "Google Gemini API", "SQLite", "HTML", "CSS"],
+  live: "#",
+  code: "https://github.com/zaid-mian/Medbot.git",
+},
   {
     title: "💬 DocuChat – Gemini AI Chatbot",
     desc: "Gemini-powered PDF analyzer that answers queries from uploaded documents.",
     ss: "/Docuchat.png",
     tech: ["Gemini API", "LangChain", "Python", "Streamlit"],
     live: "https://docuchat-chatbot.streamlit.app/",
-    code: "https://github.com/kunj2803/Docuchat-Chatbot",
+    code: "https://github.com/zaid-mian/gemini-ai-chatbot",
   },
-  {
-    title: "📊 ProfileX – Data Profiler",
-    desc: "Smart data profiling dashboard for CSV datasets — summary, visualization, and cleaning.",
-    ss: "/ProfileX.png",
-    tech: ["Streamlit", "Pandas", "Plotly"],
-    live: "https://profilex.streamlit.app/",
-    code: "https://github.com/kunjdesai/ProfileX",
-  },
+ {
+  title: "🧠 CNN Character & Digit Visualizer",
+  desc: "Interactive deep learning app visualizing CNN layer activations in real-time for MNIST & EMNIST datasets.",
+  ss: "/cnnn.jpeg",
+  tech: ["Python", "TensorFlow", "Keras", "Streamlit", "OpenCV", "Matplotlib", "NumPy"],
+  live: "#",
+  code: "https://github.com/zaid-mian/CNN_Character_Visualizer",
+},
   {
     title: "🧬 Breast Cancer Prediction",
     desc: "ML pipeline using SVC, RF, and XGBoost with SMOTE for dataset balancing.",
     ss: "/breastpred.jpg",
     tech: ["scikit-learn", "XGBoost", "Pandas"],
     live: "#",
-    code: "https://github.com/kunjdesai/BreastCancerPrediction",
+    code: "https://github.com/zaid-mian/Breast-Cancer-Prediction-with-KNN-Cross-Validation-GridSearchCV",
   },
 ];
 
@@ -153,14 +153,14 @@ export default function Projects() {
                     <Github size={14} /> Code
                   </motion.a>
 
-                  <motion.a
+                  {/* <motion.a
                     href={p.live}
                     target="_blank"
                     whileHover={{ scale: 1.08 }}
                     className="live-btn"
                   >
                     <ExternalLink size={14} /> Live
-                  </motion.a>
+                  </motion.a> */}
                 </div>
               </div>
             </motion.div>

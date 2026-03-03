@@ -4,14 +4,14 @@ import "./Certificates.css";
 
 const CERTS = {
   tech: [
-    { title: "Flipkart Hackathon", org: "Flipkart", date: "2022", img: "/certs/flipkart.jpg" },
-    { title: "Solution Challenge", org: "Google Developers", date: "2023", img: "/certs/hack2skill.png" },
-    { title: "ADira", org: "SCET AI Club", date: "2025", img: "/certs/adira.png" },
+    { title: "Artifical Intelligence", org: "Career", date: "2025", img: "/certs/career.jpeg" },
+    { title: "Machine learning Specailization", org: "Stanford", date: "2025", img: "/certs/stanford.jpeg" },
+    { title: "Python for Data Science and Ai", org: "IBM", date: "2025", img: "/certs/pyton.jpeg" },
+    { title: "Introduction to Ai", org: "Google", date: "2025", img: "/certs/google.jpeg" },
   ],
   other: [
-    { title: "Codathon", org: "SCET Tech Fest", date: "2025", img: "/certs/codathon.png" },
-    { title: "Bugbuzz", org: "SCET Tech Fest", date: "2025", img: "/certs/bugbuzz.png" },
-    { title: "Dataloom", org: "SCET", date: "2024", img: "/certs/dataloom.png" },
+    { title: "Collaborate Effectively for professional success", org: "IBM", date: "2025", img: "/certs/IBM.jpeg" },
+ 
   ],
 };
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import emailjs from "emailjs-com";
-import { Mail, MapPin, Phone, Send, Github, Linkedin, Instagram, MessageCircle } from "lucide-react";
+import { Mail, MapPin, Phone, Send, Github, Linkedin, MessageCircle } from "lucide-react";
 
 export function Contact() {
   const [form, setForm] = useState({
@@ -59,17 +59,17 @@ export function Contact() {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "kunjd2803@gmail.com" },
-    { icon: Phone, label: "Phone", value: "+91 8758209508" },
-    { icon: MapPin, label: "Location", value: "Surat, Gujarat, India" },
+    { icon: Mail, label: "Email", value: "mianzaid049@gmail.com" },
+    { icon: Phone, label: "Phone", value: "+923324418821" },
+    { icon: MapPin, label: "Location", value: "Pakistan" },
   ];
 
   const quickLinks = [
-    { icon: Github, url: "https://github.com/kunj2803" },
-    { icon: Linkedin, url: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
-    { icon: Mail, url: "mailto:kunjd2803@gmail.com" },
-    { icon: MessageCircle, url: "https://wa.me/+918758209508" },
-    { icon: Instagram, url: "https://www.instagram.com/kunj_2834/" },
+    { icon: Github, url: "https://github.com/zaid-mian" },
+    { icon: Linkedin, url: "www.linkedin.com/in/muhammad-zaid-tahir-3a6160362" },
+    { icon: Mail, url: "mailto:mianzaid049@gmail.com" },
+    { icon: MessageCircle, url: "https://wa.me/+923324418821" },
+  
   ];
 
   return (

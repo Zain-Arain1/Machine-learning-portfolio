@@ -4,7 +4,7 @@ import { Navbar } from "./components/Navbar";
 import { FloatingNav } from "./components/FloatingNav";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
-import { Team } from "./components/Team";
+
 import Projects from "./components/Projects";
 import { Gallery } from "./components/Gallery";
 import { GalleryPage } from "./components/GalleryPage"; // <--- NEW PAGE IMPORT
@@ -58,17 +58,17 @@ export default function App() {
                 <Home theme={theme} />
 
                 <About />
-                <Team theme={theme} />
+                
                 <Projects theme={theme} />
 
                 {/* PASS FUNCTION TO GALLERY BUTTON */}
-                <Gallery theme={theme} onOpenGalleryPage={() => setOpenGalleryPage(true)} />
+                {/* <Gallery theme={theme} onOpenGalleryPage={() => setOpenGalleryPage(true)} /> */}
 
 
                 <Skills theme={theme} />
                 <Resume theme={theme} />
                 <Certificates theme={theme} />
-                <Blog theme={theme} />
+                {/* <Blog theme={theme} /> */}
                 <Contact theme={theme} />
               </>
             )}
