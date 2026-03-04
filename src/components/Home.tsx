@@ -1,10 +1,12 @@
+
 import React, { useState, useEffect } from "react";
 import { color, motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
+
 import "./Home.css";
 
-
-
+import heroLight from "../assets/j.jpeg";
+import heroDark from "../assets/Hero.jpeg";
 const githubLogo = "/github.png";
 const linkedinLogo = "/linkedin.png";
 const gmailLogo = "/gmail.png";
@@ -66,7 +68,7 @@ export function Home({ theme }: HeroProps) {
       <div
         className="hero-bg"
         style={{
-          backgroundImage: `url(${theme === "light" ? "/j.jpeg" : "/Hero.jpeg"})`,
+          backgroundImage: `url(${theme === "light" ? heroLight : heroDark})`,
         }}
       />
 
